@@ -1,0 +1,8 @@
+import os
+
+TELEGRAM_API_KEY = os.getenv('TELEGRAM_API_KEY')
+AFFINE_WORKSPACE_URL = os.getenv('AFFINE_WORKSPACE_URL')
+AFFINE_USER_EMAIL = os.getenv('AFFINE_USER_EMAIL')
+AFFINE_USER_PASSWORD = os.getenv('AFFINE_USER_PASSWORD')
+IS_DEBUG = os.getenv('IS_DEBUG') == 'True'
+USER_ID = os.getenv('USER_ID')
